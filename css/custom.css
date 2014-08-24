@@ -7,6 +7,7 @@
 .guestbar {
     background-color: #848484;
     height: 150px;
+    color: #fff;
 }
 .navbarcus {
     background-color: #4e5050;
@@ -40,5 +41,20 @@
     background-color: #fff;
     padding: 25px;
     margin-left: 150px;
-padding-bottom: 110px;
+padding-bottom:110px;
 }
+@media only screen and (max-width: 40em) {
+    .carbackground {
+        background-color: #fff;
+        border-top: #c0c0c0 0px solid;
+        border-bottom: #c0c0c0 0px solid;
+        padding: 15px;
+        height: 370px;
+    }
+    .mainback {
+        background-color: #fff;
+        padding: 25px;
+        margin-left: 0px;
+        padding-bottom:110px;
+    }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
