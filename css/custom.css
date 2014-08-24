@@ -18,6 +18,7 @@
 .guest-img {
  height: 125px;
  width: 125px;
+    margin-top: 15px;
 }
 
 .logoimg {
@@ -25,4 +26,19 @@
     width: 186px;
     float: right;
     margin-top: 43px;
+}
+
+.carbackground {
+    background-color: #fff;
+    border-top: #c0c0c0 2px solid;
+    border-bottom: #c0c0c0 2px solid;
+    padding: 15px;
+    height: 370px;
+}
+
+.mainback {
+    background-color: #fff;
+    padding: 25px;
+    margin-left: 150px;
+padding-bottom: 110px;
 }
