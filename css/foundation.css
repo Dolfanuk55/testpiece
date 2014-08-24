@@ -3339,12 +3339,14 @@ ul.pagination {
     font-size: 0.875rem; }
     .side-nav li a:not(.button) {
       display: block;
-      color: #008cba;
+      color: #fff;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
-        background: rgba(0, 0, 0, 0.025);
-        color: #1cc7ff; }
+        background: #54595a;
+        color: #fff;
+          width: 100%;
+      border-left: red 4px solid;}
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
